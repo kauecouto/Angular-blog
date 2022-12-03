@@ -1,0 +1,34 @@
+.container{
+    padding: 5rem; 
+    margin: auto;
+}
+
+.button-back{
+    padding: 0.5rem 0.9rem ;
+    border-radius: 0.3rem;
+    background-color: grey;
+    margin: 0.2rem 0;
+    align-self: flex-start;
+}
+
+div{
+   
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    color: white;
+}
+
+div > img{
+    width: 100%;
+    border-radius: 0.3rem;
+}
+
+div > h1, p, aside{
+    max-width: 990px;
+    margin: 0.7rem 0;
+}
+
+p, aside{
+    color: rgb(174, 174, 174);
+}

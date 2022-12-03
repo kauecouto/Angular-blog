@@ -1,0 +1,19 @@
+<app-title></app-title>
+<section>
+    <div>
+        <app-big-card *ngFor="let n of news | slice: 0 : 3; let i = index" 
+            id="{{ i }}"
+            photo="{{ n.photo }}"
+            date="{{ n.date }}"
+            cardTitle="{{ n.title }}"
+        ></app-big-card>
+    </div>
+    <article>
+        <app-small-card  *ngFor="let n of news | slice: 3; let i = index"
+            id="{{ i + 3 }}"
+            photo="{{ n.photo }}"
+            date="{{ n.date }}"
+            cardTitle="{{ n.title }}"
+        ></app-small-card>
+    </article>
+</section>

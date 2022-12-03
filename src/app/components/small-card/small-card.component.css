@@ -1,0 +1,38 @@
+.container-small-card{
+    max-width: 600px;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.container-photo{
+    max-width: 300px;
+}
+
+.container-photo > img {
+    width: 200px;
+}
+
+.container-title{
+    display: flex;
+    flex-direction: column;
+    margin: 0.9rem;
+}
+.container.title > aside, h3{
+    margin: 0.4rem 0;
+}
+.container-title > aside{
+    color: rgb(174, 174, 174);
+}
+
+.container-separator{
+    margin-bottom: 2rem;
+}
+
+.container-separator > hr{
+    margin: auto;
+    max-width: 600px;
+    filter: opacity(0.1);
+}

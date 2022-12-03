@@ -1,0 +1,14 @@
+<div>
+    <div class="container-small-card">
+        <div class="container-photo">
+            <img src="{{ photo }}" alt="wandinha netflix" [routerLink]="['content', id]" >
+        </div>
+        <div class="container-title">
+            <aside>{{ date }}</aside>
+            <h3 [routerLink]="['content', id]">{{ cardTitle }}</h3>
+        </div>
+    </div>
+    <div class="container-separator">
+        <hr>
+    </div>
+</div>

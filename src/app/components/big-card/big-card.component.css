@@ -1,0 +1,20 @@
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    padding: 2rem;
+    color: white;
+}
+
+div > img{
+    width: 100%;
+}
+
+div > h2, p, aside{
+    margin: 0.7rem 0;
+}
+
+p, aside{
+    color: rgb(174, 174, 174);
+}
