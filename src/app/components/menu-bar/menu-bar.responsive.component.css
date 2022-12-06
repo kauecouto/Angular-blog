@@ -1,0 +1,15 @@
+@media (max-width: 600px){
+    h5{
+        font-size: 0.7rem;
+        margin: 0 0.5rem;
+    }
+
+    #perfil{
+        width: 35px;    
+    }
+
+    .logo-rede{
+        width: 20px;
+        margin: 0 0.3rem;    
+    }
+}

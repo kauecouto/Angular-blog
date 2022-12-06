@@ -28,4 +28,10 @@ div{
 .logo-rede{
     width: 25px;
     margin: 0 1rem;
+    transition: 0.3s;
 }
+
+.logo-rede:hover{
+    transform: scale(1.2);
+}
+

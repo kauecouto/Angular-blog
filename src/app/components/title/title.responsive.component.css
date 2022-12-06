@@ -1,5 +1,11 @@
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .title{
-        font-size: 7rem;
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 1700px) {
+    .title{
+        font-size: 3rem;
     }
 }
