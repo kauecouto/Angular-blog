@@ -4,7 +4,7 @@
     }
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 768px) {
     .title{
         font-size: 3rem;
     }

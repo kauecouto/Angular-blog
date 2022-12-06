@@ -1,4 +1,7 @@
 @media (max-width: 600px){
+    header{
+        padding: 0 0.5rem;
+    }
     h5{
         font-size: 0.7rem;
         margin: 0 0.5rem;
